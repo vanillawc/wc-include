@@ -5,19 +5,17 @@ export class WCInclude extends HTMLElement {
     this.attachShadow({mode: 'open'});
   }
 
-  static get observedAttributes() {
-    return ['src'];
-  }
-
-  attributeChangedCallback(name, oldValue, newValue) {
-    if (oldValue !== newValue) {
-      this[name] = newValue;
+  async connectedCallback() {
+    if (this.hasAttribute('src')) {
+      const src = this.getAttribute('src');
+      this.load(src);
+    } else {
+      throw Error(`WCInclude: 'src' attribute not set`);
     }
   }
-
-  get src() { return this.getAttribute('src'); }
-  set src(value) {
-    fetch(value)
+  
+  load(src) {
+    fetch(src)
       .then((response) => response.text())
       .then((contents) => this.shadowRoot.innerHTML = contents);
   }
