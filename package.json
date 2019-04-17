@@ -1,5 +1,5 @@
 { 
-  "name": "wc-include", 
+  "name": "@vanillawc/wc-include", 
   "version": "1.0.0", 
   "license": "MIT", 
   "author": "Evan Plaice <evanplaice@gmail.com> (http://evanplaice.com/)", 
