@@ -11,6 +11,8 @@
   ], 
   "repository": "https://github.com/vanillawc/wc-include/", 
   "main": "src/wc-include.js", 
-  "scripts": {}, 
+  "scripts": {
+    "start": "npx live-server --open=demo"
+  }, 
   "devDependencies": {} 
 } 
