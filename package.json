@@ -1,0 +1,16 @@
+{ 
+  "name": "wc-include", 
+  "version": "1.0.0", 
+  "license": "MIT", 
+  "author": "Evan Plaice <evanplaice@gmail.com> (http://evanplaice.com/)", 
+  "description": "A vanilla web component for including external media", 
+  "keywords": [ 
+    "web-component", 
+    "vanilla", 
+    "include" 
+  ], 
+  "repository": "https://github.com/vanillawc/wc-include/", 
+  "main": "src/wc-include.js", 
+  "scripts": {}, 
+  "devDependencies": {} 
+} 
