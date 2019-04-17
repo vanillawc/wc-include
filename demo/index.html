@@ -9,7 +9,14 @@
 </head>
 <body>
 
+  <!-- Load html from an external file -->
   <wc-include src="./assets/sample.html"></wc-include>
+
+  <!-- Fail because src attribute missing -->
+  <wc-include></wc-include>
+
+  <!-- Fail loading a file that doesn't exist -->
+  <wc-include src="./assets/doesnt-exist.html"></wc-include>
 
 </body>
 </html>
