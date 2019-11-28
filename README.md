@@ -28,3 +28,7 @@ The package can be found in `node_modules/@vanillawc/wc-include`.
 ```html
 <wc-include src="./sample.html"></wc-include>
 ```
+
+***Demo: [WC-Include - Demo][]***
+
+[WC-Include - Demo]: https://vanillawc.github.io/wc-include/demo/index.html
