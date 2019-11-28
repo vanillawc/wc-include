@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>WC-Include - Demo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/vanillawc-favicon[32x32].png">
-  <script type="module" src="../src/wc-include.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@vanillawc/wc-demo@1.1.1/dist/wc-demo.min.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@vanillawc/wc-include@1.0.0/src/wc-include.min.js"></script>
 </head>
 <body>
-
-  <!-- Load html from an external file -->
-  <wc-include src="./assets/sample.html"></wc-include>
-
-  <!-- Fail because src attribute missing -->
-  <wc-include></wc-include>
-
-  <!-- Fail loading a file that doesn't exist -->
-  <wc-include src="./assets/doesnt-exist.html"></wc-include>
-
+  <wc-demo title="WC-Include" link="https://github.com/vanillawc/wc-include" desc="Basic usage" src="assets/basic-usage.sample"></wc-demo>
 </body>
 </html>
+
