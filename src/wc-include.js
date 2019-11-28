@@ -1,25 +1,24 @@
+/* eslint no-undef: 0 */
 export class WCInclude extends HTMLElement {
-
-  constructor() {
+  constructor () {
     super();
-    this.attachShadow({mode: 'open'});
+    this.attachShadow({ mode: 'open' });
   }
 
-  async connectedCallback() {
+  async connectedCallback () {
     if (this.hasAttribute('src')) {
       const src = this.getAttribute('src');
       this.load(src);
     } else {
-      throw Error(`WCInclude: 'src' attribute not set`);
+      throw Error('WCInclude: \'src\' attribute not set');
     }
   }
-  
-  load(src) {
+
+  load (src) {
     fetch(src)
       .then((response) => response.text())
-      .then((contents) => this.shadowRoot.innerHTML = contents);
+      .then((contents) => { this.shadowRoot.innerHTML = contents; });
   }
-
 }
 
 customElements.define('wc-include', WCInclude);
