@@ -1,2 +1,5 @@
+.github/
+.vscode/
 demo/
-.circleci/
+dev/
+*.tgz
