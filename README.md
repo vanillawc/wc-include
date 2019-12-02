@@ -1,5 +1,3 @@
-<h1>WC-Include</h1>
-
 [![GitHub release](https://img.shields.io/github/v/release/vanillawc/wc-include.svg)](https://github.com/vanillawc/wc-include/releases)
 [![npm](https://badgen.net/npm/v/@vanillawc/wc-include)](https://www.npmjs.com/package/@vanillawc/wc-include)
 [![downloads](https://badgen.net/npm/dt/@vanillawc/wc-include)](https://www.npmjs.com/package/@vanillawc/wc-include)
