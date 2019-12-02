@@ -17,7 +17,7 @@ A Vanilla Web Component for including external media, like an iFrame but better
 npm i @vanillawc/wc-include
 ```
 
-The package can be found in `node_modules/@vanillawc/wc-include`.
+Then import the `index.js` file at the root of the package.
 
 -----
 
