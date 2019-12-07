@@ -3,6 +3,7 @@
 [![downloads](https://badgen.net/npm/dt/@vanillawc/wc-include)](https://www.npmjs.com/package/@vanillawc/wc-include)
 [![Known Vulnerabilities](https://snyk.io/test/npm/@vanillawc/wc-include/badge.svg)](https://snyk.io/test/npm/@vanillawc/wc-include)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vanillawc/wc-include/master/LICENSE)
+[![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@vanillawc/wc-include)
 [![Actions Status](https://github.com/vanillawc/wc-include/workflows/Release/badge.svg)](https://github.com/vanillawc/wc-include/actions)
 
 A Vanilla Web Component for including external media, like an iFrame but better

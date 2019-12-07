@@ -1,0 +1,13 @@
+{
+  "name": "@vanillawc/wc-include",
+  "authors": [
+    "Evan Plaice <evanplaice@gmail.com> (http://evanplaice.com/)"
+  ],
+  "keywords": [
+    "web-component",
+    "vanilla",
+    "include"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
