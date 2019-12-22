@@ -1,23 +1,43 @@
 /* eslint no-undef: 0 */
 export class WCInclude extends HTMLElement {
+  static get observedAttributes () {
+    return ['src'];
+  }
+
+  attributeChangedCallback (name, oldValue, newValue) {
+    if (!this.__initialized) { return; }
+    if (oldValue !== newValue) {
+      this[name] = newValue;
+    }
+  }
+
+  get src () { return this.getAttribute('src'); }
+  set src (value) {
+    this.setAttribute('src', value);
+    this.setSrc();
+  }
+
   constructor () {
     super();
-    this.attachShadow({ mode: 'open' });
+    this.__initialized = false;
   }
 
   async connectedCallback () {
     if (this.hasAttribute('src')) {
-      const src = this.getAttribute('src');
-      this.load(src);
-    } else {
-      throw Error('WCInclude: \'src\' attribute not set');
+      this.setSrc();
     }
+    this.__initialized = true;
   }
 
-  load (src) {
-    fetch(src)
-      .then((response) => response.text())
-      .then((contents) => { this.shadowRoot.innerHTML = contents; });
+  async setSrc () {
+    const src = this.getAttribute('src');
+    const contents = await this.fetchSrc(src);
+    this.innerHTML = contents;
+  }
+
+  async fetchSrc (src) {
+    const response = await fetch(src);
+    return response.text();
   }
 }
 
