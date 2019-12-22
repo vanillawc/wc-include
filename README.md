@@ -24,6 +24,10 @@ Then import the `index.js` file at the root of the package.
 
 ## Usage
 
+**Attributes**
+
+- shadow - if present the contents are contained in a shadowDOM
+
 ### Load HTML from an external file
 
 ```html

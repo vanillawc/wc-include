@@ -20,6 +20,15 @@ export class WCInclude extends HTMLElement {
   constructor () {
     super();
     this.__initialized = false;
+    this.__element = null;
+    const shadow = this.hasAttribute('shadow');
+    if (shadow) {
+      this.attachShadow({ mode: 'open' });
+    }
+
+    this.__element = shadow
+      ? this.shadowRoot
+      : this;
   }
 
   async connectedCallback () {
@@ -32,7 +41,7 @@ export class WCInclude extends HTMLElement {
   async setSrc () {
     const src = this.getAttribute('src');
     const contents = await this.fetchSrc(src);
-    this.innerHTML = contents;
+    this.__element.innerHTML = contents;
   }
 
   async fetchSrc (src) {
