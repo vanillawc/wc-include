@@ -28,12 +28,25 @@ Then import the `index.js` file at the root of the package.
 
 - shadow - if present the contents are contained in a shadowDOM
 
-### Load HTML from an external file
+### Basic Usage
+
+The `src` attribute imports the contents of the file into the lightDOM.
 
 ```html
 <wc-include src="./sample.html"></wc-include>
 ```
 
-***Demo: [WC-Include - Demo][]***
+***Demo: [WC-Include - Basic Usage][]***
 
-[WC-Include - Demo]: https://vanillawc.github.io/wc-include/demo/index.html
+### 'shadow' Attribute Usage
+
+When the `shadow` attribute is specified, the imported contents will be encapsulated in a shadowDOM.
+
+```html
+<wc-include src="./sample.html" shadow></wc-include>
+```
+
+***Demo: [WC-Include - 'shadow' Attribute][]***
+
+[WC-Include - Basic Usage]: https://vanillawc.github.io/wc-include/demo/basic-usage.html
+[WC-Include - 'shadow' Attribute]: https://vanillawc.github.io/wc-include/demo/shadow-attribute.html
