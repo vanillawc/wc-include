@@ -12,7 +12,7 @@
   "repository": "https://github.com/vanillawc/wc-include/",
   "main": "src/wc-include.js",
   "scripts": {
-    "start": "npx live-server --open=dev",
+    "start": "npx live-server --no-browser --open=dev",
     "lint": "semistandard",
     "package": "npx rimraf package && npm pack | tail -n 1 | xargs tar -xf",
     "preversion": "npm run lint",
