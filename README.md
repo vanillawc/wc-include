@@ -36,8 +36,6 @@ The `src` attribute imports the contents of the file into the lightDOM.
 <wc-include src="./sample.html"></wc-include>
 ```
 
-***Demo: [WC-Include - Basic Usage][]***
-
 ### 'shadow' Attribute Usage
 
 When the `shadow` attribute is specified, the imported contents will be encapsulated in a shadowDOM.
@@ -46,7 +44,8 @@ When the `shadow` attribute is specified, the imported contents will be encapsul
 <wc-include src="./sample.html" shadow></wc-include>
 ```
 
-***Demo: [WC-Include - 'shadow' Attribute][]***
+-----
 
-[WC-Include - Basic Usage]: https://vanillawc.github.io/wc-include/demo/basic-usage.html
-[WC-Include - 'shadow' Attribute]: https://vanillawc.github.io/wc-include/demo/shadow-attribute.html
+## Demo
+
+### [WC-Include-Demo - WebComponents.dev](https://webcomponents.dev/edit/zNPKE4KD6k8Lz8wVfHne?sv=1&pm=1)
