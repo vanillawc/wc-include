@@ -19,6 +19,7 @@
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {
+    "rollup-plugin-terser": "^5.2.0",
     "semistandard": "^14.2.0"
   }
 }
