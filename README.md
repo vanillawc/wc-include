@@ -1,14 +1,12 @@
-[![GitHub Releases](https://img.shields.io/github/v/release/vanillawc/wc-include.svg)](https://github.com/vanillawc/wc-include/releases)
+[![GitHub Releases](https://badgen.net/github/tag/vanillawc/wc-include)](https://github.com/vanillawc/wc-include/releases)
 [![NPM Release](https://badgen.net/npm/v/@vanillawc/wc-include)](https://www.npmjs.com/package/@vanillawc/wc-include)
-[![Downloads](https://badgen.net/npm/dt/@vanillawc/wc-include)](https://www.npmjs.com/package/@vanillawc/wc-include)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vanillawc/wc-include/master/LICENSE)
+[![Bundlephobia](https://badgen.net/bundlephobia/minzip/@vanillawc/wc-include)](https://bundlephobia.com/result?p=@vanillawc/wc-include)
+[![MIT License](https://badgen.net/github/license/vanillawc/wc-include)](https://raw.githubusercontent.com/vanillawc/wc-include/master/LICENSE)
 [![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vanillawc/wc-include)
 [![Latest Status](https://github.com/vanillawc/wc-include/workflows/Latest/badge.svg)](https://github.com/vanillawc/wc-include/actions)
 [![Release Status](https://github.com/vanillawc/wc-include/workflows/Release/badge.svg)](https://github.com/vanillawc/wc-include/actions)
 
 A Vanilla Web Component for including external media, like an iFrame but better
-
- <!-- TODO: Add video graphic here -->
 
 -----
 
