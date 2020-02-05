@@ -10,7 +10,7 @@
     "include"
   ],
   "repository": "https://github.com/vanillawc/wc-include/",
-  "main": "src/wc-include.js",
+  "main": "index.js",
   "scripts": {
     "start": "npx live-server --no-browser --port=5500 --open=dev",
     "lint": "semistandard",
