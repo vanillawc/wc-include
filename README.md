@@ -1,24 +1,35 @@
-[![GitHub Releases](https://badgen.net/github/tag/vanillawc/wc-include)](https://github.com/vanillawc/wc-include/releases)
-[![NPM Release](https://badgen.net/npm/v/@vanillawc/wc-include)](https://www.npmjs.com/package/@vanillawc/wc-include)
-[![Bundlephobia](https://badgen.net/bundlephobia/minzip/@vanillawc/wc-include)](https://bundlephobia.com/result?p=@vanillawc/wc-include)
-[![MIT License](https://badgen.net/github/license/vanillawc/wc-include)](https://raw.githubusercontent.com/vanillawc/wc-include/master/LICENSE)
-[![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vanillawc/wc-include)
-[![Latest Status](https://github.com/vanillawc/wc-include/workflows/Latest/badge.svg)](https://github.com/vanillawc/wc-include/actions)
-[![Release Status](https://github.com/vanillawc/wc-include/workflows/Release/badge.svg)](https://github.com/vanillawc/wc-include/actions)
+<h1 align="center">&lt;wc-include&gt;: Include HTML from an External Source</h1>
 
-A Vanilla Web Component for including external media, like an iFrame but better
-
------
+<div align="center">
+  <a href="https://github.com/vanillawc/wc-include/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-include" alt="GitHub Releases"></a>
+  <a href="https://www.npmjs.com/package/@vanillawc/wc-include"><img src="https://badgen.net/npm/v/@vanillawc/wc-include" alt="NPM Releases"></a>
+  <a href="https://bundlephobia.com/result?p=@vanillawc/wc-include"><img src="https://badgen.net/bundlephobia/minzip/@vanillawc/wc-include" alt="Bundlephobia"></a>
+  <a href="https://raw.githubusercontent.com/vanillawc/wc-include/master/LICENSE"><img src="https://badgen.net/github/license/vanillawc/wc-include" alt="MIT License"></a>
+  <a href="https://www.webcomponents.org/element/vanillawc/wc-include"><img src="https://img.shields.io/badge/webcomponents.org-published-blue.svg" alt="Published on WebComponents.org"></a>
+  <a href="https://github.com/vanillawc/wc-include/actions"><img src="https://github.com/vanillawc/wc-include/workflows/Latest/badge.svg" alt="Latest Status"></a>
+  <a href="https://github.com/vanillawc/wc-include/actions"><img src="https://github.com/vanillawc/wc-include/workflows/Release/badge.svg" alt="Release Status"></a>
+</div>
 
 ## Installation
 
+*Installation*
 ```sh
 npm i @vanillawc/wc-include
 ```
 
-Then import the `index.js` file at the root of the package.
+*Import from NPM*
+```html
+<script type="module" src="node_modules/@vanillawc/wc-include/index.js"></script>
+```
 
------
+*Import from CDN*
+```html
+<script type="module" src="https://cdn.jsdelivr.net/gh/vanillawc/wc-include/index.js"></script>
+```
+
+## Demo
+
+Try it on [WebComponents.dev](https://webcomponents.dev/edit/zNPKE4KD6k8Lz8wVfHne?sv=1&pm=1)
 
 ## Usage
 
@@ -41,9 +52,3 @@ When the `shadow` attribute is specified, the imported contents will be encapsul
 ```html
 <wc-include src="./sample.html" shadow></wc-include>
 ```
-
------
-
-## Demo
-
-### [WC-Include-Demo - WebComponents.dev](https://webcomponents.dev/edit/zNPKE4KD6k8Lz8wVfHne?sv=1&pm=1)
