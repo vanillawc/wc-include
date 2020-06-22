@@ -1,6 +1,6 @@
 {
   "name": "@vanillawc/wc-include",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "license": "MIT",
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
   "description": "A vanilla web component for including external media",
