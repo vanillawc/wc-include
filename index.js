@@ -1,17 +1,17 @@
 /* eslint no-undef: 0 */
 class WCInclude extends HTMLElement {
   static get observedAttributes () {
-    return ['src'];
+    return ['src']
   }
 
   attributeChangedCallback (name, oldValue, newValue) {
-    if (!this.__initialized) { return; }
+    if (!this.__initialized) { return }
     if (oldValue !== newValue) {
       this[name] = newValue;
     }
   }
 
-  get src () { return this.getAttribute('src'); }
+  get src () { return this.getAttribute('src') }
   set src (value) {
     this.setAttribute('src', value);
     this.setSrc();
@@ -46,7 +46,7 @@ class WCInclude extends HTMLElement {
 
   async fetchSrc (src) {
     const response = await fetch(src);
-    return response.text();
+    return response.text()
   }
 }
 
