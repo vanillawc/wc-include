@@ -1,4 +1,4 @@
-<h1 align="center">&lt;wc-include&gt;: Include HTML from an External Source</h1>
+<h1 align="center">&lt;wc-include&gt; Include HTML from an External Source</h1>
 
 <div align="center">
   <a href="https://github.com/vanillawc/wc-include/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-include" alt="GitHub Releases"></a>
