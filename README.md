@@ -4,10 +4,11 @@
   <a href="https://github.com/vanillawc/wc-include/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-include" alt="GitHub Releases"></a>
   <a href="https://www.npmjs.com/package/@vanillawc/wc-include"><img src="https://badgen.net/npm/v/@vanillawc/wc-include" alt="NPM Releases"></a>
   <a href="https://bundlephobia.com/result?p=@vanillawc/wc-include"><img src="https://badgen.net/bundlephobia/minzip/@vanillawc/wc-include" alt="Bundlephobia"></a>
-  <a href="https://raw.githubusercontent.com/vanillawc/wc-include/master/LICENSE"><img src="https://badgen.net/github/license/vanillawc/wc-include" alt="MIT License"></a>
-  <a href="https://www.webcomponents.org/element/vanillawc/wc-include"><img src="https://img.shields.io/badge/webcomponents.org-published-blue.svg" alt="Published on WebComponents.org"></a>
   <a href="https://github.com/vanillawc/wc-include/actions"><img src="https://github.com/vanillawc/wc-include/workflows/Latest/badge.svg" alt="Latest Status"></a>
   <a href="https://github.com/vanillawc/wc-include/actions"><img src="https://github.com/vanillawc/wc-include/workflows/Release/badge.svg" alt="Release Status"></a>
+
+  <a href="https://discord.gg/8ur9M5"><img alt="Discord" src="https://img.shields.io/discord/723296249121603604?color=%23738ADB"></a>
+  <a href="https://www.webcomponents.org/element/vanillawc/wc-include"><img src="https://img.shields.io/badge/webcomponents.org-published-blue.svg" alt="Published on WebComponents.org"></a>
 </div>
 
 ## Installation
@@ -52,3 +53,7 @@ When the `shadow` attribute is specified, the imported contents will be encapsul
 ```html
 <wc-include src="./sample.html" shadow></wc-include>
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/vanillawc/vanillawc/blob/main/CONTRIBUTING.md)
