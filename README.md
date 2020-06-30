@@ -25,7 +25,7 @@ npm i @vanillawc/wc-include
 
 *Import from CDN*
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/gh/vanillawc/wc-include/index.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/vanillawc/wc-include@1/index.js"></script>
 ```
 
 ## Demo
