@@ -15,7 +15,7 @@
     "start": "npx live-server --no-browser --port=5500 --open=dev",
     "lint": "esmtk lint",
     "build": "npm run build:esm && npm run build:min",
-    "build:esm": "esmtk commonjs src/wc-include.js index.js",
+    "build:esm": "esmtk bundle src/wc-include.js index.js",
     "build:min": "esmtk minify src/wc-include.js index.min.js",
     "package": "npx rimraf package && npm pack | tail -n 1 | xargs tar -xf",
     "preversion": "npm run lint",
