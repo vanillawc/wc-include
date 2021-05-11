@@ -1,5 +1,16 @@
+var __defProp = Object.defineProperty;
+var __markAsModule = (target) => __defProp(target, "__esModule", {value: true});
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, {get: all[name], enumerable: true});
+};
+
 // src/wc-include.js
-class WCInclude extends HTMLElement {
+__markAsModule(exports);
+__export(exports, {
+  WCInclude: () => WCInclude
+});
+var WCInclude = class extends HTMLElement {
   static get observedAttributes() {
     return ["src"];
   }
@@ -43,8 +54,5 @@ class WCInclude extends HTMLElement {
     const response = await fetch(src);
     return response.text();
   }
-}
-customElements.define("wc-include", WCInclude);
-export {
-  WCInclude
 };
+customElements.define("wc-include", WCInclude);

@@ -14,15 +14,15 @@
   "scripts": {
     "start": "npx live-server --no-browser --port=5500 --open=dev",
     "lint": "esmtk lint",
-    "build": "npm run bundle && npm run minify",
-    "bundle": "esmtk bundle src/wc-include.js index.js",
-    "minify": "esmtk minify src/wc-include.js index.min.js",
+    "build": "npm run build:esm && npm run build:min",
+    "build:esm": "esmtk commonjs src/wc-include.js index.js",
+    "build:min": "esmtk minify src/wc-include.js index.min.js",
     "package": "npx rimraf package && npm pack | tail -n 1 | xargs tar -xf",
     "preversion": "npm run lint",
     "postversion": "git push --follow-tags"
   },
   "devDependencies": {
-    "esmtk": "^0.4.0"
+    "esmtk": "^0.5.6"
   },
   "standard": {
     "ignore": [
